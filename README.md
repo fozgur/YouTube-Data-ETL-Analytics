@@ -49,7 +49,7 @@ A trigger was added to the Lambda function. This trigger was set to activate whe
 ### 6. Joining Parquet Tables
 Another ETL job was created to join the Parquet tables. This step was necessary as the reporting process consistently requires the data in a joined format.
 
-### 7. Dashboard Creation
+### 7. Dashboard Creation
 Finally, a dashboard was created in Amazon QuickSight to visualize and analyze the preprocessed data. A more useful dashboard which contains more valuable insight can be created.
 
 <img width="1186" alt="image" src="https://github.com/fozgur/YouTube-Data-ETL-Analytics/assets/104754779/5f11c149-6aa5-491b-8fda-e87bcfc9b654">
