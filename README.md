@@ -5,22 +5,22 @@
 This project is aimed at securely managing, streamlining, and performing analysis on structured and semi-structured YouTube video data based on video categories and trending metrics.
 
 ## Project Goals
-Data Ingestion: Develop a mechanism to ingest data from various sources.<br>
-ETL System: Transform raw data into the proper format for analysis.<br>
-Data Lake: Create a centralized repository to store data from multiple sources.<br>
-Scalability: Ensure the system scales effectively as the data volume increases.<br>
-Cloud Integration: Utilize AWS (Amazon Web Services) for processing large amounts of data efficiently.<br>
-Reporting: Build a dashboard to extract insights from the data.<br>
+**Data Ingestion:** Develop a mechanism to ingest data from various sources.<br>
+**ETL System:** Transform raw data into the proper format for analysis.<br>
+**Data Lake:** Create a centralized repository to store data from multiple sources.<br>
+**Scalability:** Ensure the system scales effectively as the data volume increases.<br>
+**Cloud Integration:** Utilize AWS (Amazon Web Services) for processing large amounts of data efficiently.<br>
+**Reporting:** Build a dashboard to extract insights from the data.<br>
 
 ## Services Used
 I used various AWS services to achieve project goals:<br>
 
-Amazon S3:For raw, cleansed and analytic data<br>
-AWS IAM: Securely manage access to AWS services and resources.<br>
-Amazon QuickSight: Used for creating the dashboards.<br>
-AWS Glue: Used for data integration service for data discovery, preparation, and consolidation.<br>
-AWS Lambda:Computing service for running code without managing servers.<br>
-AWS Athena: Used for querying data stored in Amazon S3.<br>
+**Amazon S3:** For raw, cleansed and analytic data<br>
+**AWS IAM:** Securely manage access to AWS services and resources.<br>
+**Amazon QuickSight**: Used for creating the dashboards.<br>
+**AWS Glue:** Used for data integration service for data discovery, preparation, and consolidation.<br>
+**AWS Lambda:** Computing service for running code without managing servers.<br>
+**AWS Athena:** Used for querying data stored in Amazon S3.<br>
 
 ## Architecture Diagram
 
