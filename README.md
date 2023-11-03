@@ -38,10 +38,10 @@ AWS Glue was used to crawl the data, making it accessible for further analysis.
 AWS Athena was employed to explore and query the dataset. In this process, some variable type inconsistencies were discovered.
 
 ### 3. ETL Job for Data Transformation
-To address the variable type inconsistencies and prepare the data for the dashboard, an AWS ETL Job was created. The issue at hand was the need to change variable types, particularly when joining different tables using SQL commands such as cast().
+To address the variable type inconsistencies and prepare the data for the dashboard, an AWS ETL Job was created. The issue at hand was the need to change variable types, to avoid using SQL commands such as cast( when joining different tables.
 
 ### 4. Data Format Conversion
-The .csv and .json files were converted to Parquet format to enhance efficiency during the creation of reports. A Lambda function was utilized for this task.
+The .csv and .json files were converted to Parquet format to enhance efficiency during the creation of reports. A Lambda function was utilized for this .json and an ETL job on Glue was utilized for .csv files.
 
 ### 5. Event Trigger for Scalability
 A trigger was added to the Lambda function. This trigger was set to activate when a .json file was uploaded to the S3 landing bucket. It dynamically creates a scalable platform.
