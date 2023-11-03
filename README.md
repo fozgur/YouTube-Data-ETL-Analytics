@@ -15,7 +15,7 @@ Reporting: Build a dashboard to extract insights from the data.
 
 ## Services Used
 
-I used various AWS services to achieve our project goals:
+I used various AWS services to achieve project goals:
 
 **Amazon S3:** For raw, cleansed and analytic data
 **AWS IAM (Identity and Access Management):** Securely manage access to AWS services and resources.
